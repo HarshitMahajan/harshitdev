@@ -51,8 +51,8 @@ const projectsArray = [
     demoLink: " ",
   },
   {
-    title: "",
-    desc: "A program that lets you download youtube videos at the best quality.",
+    title: "Desktop Cleaner",
+    desc: "A simple script yo clean all your files with one tap.",
     githubLink:"https://github.com/HarshitMahajan/Youtuber-Download- ",
     demoLink: " ",
   },
