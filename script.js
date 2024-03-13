@@ -11,7 +11,7 @@ const socialHandles = [
     platform: "github",
   },
   {
-    Link: "https://peerlist.io/",
+    Link: "https://peerlist.io/harshitmahajan",
     platform: "peerlist",
   },
   {
@@ -39,7 +39,19 @@ const projectsArray = [
     demoLink: " ",
   },
   {
-    title: "Youtube down",
+    title: "Youtube downloader",
+    desc: "A program that lets you download youtube videos at the best quality.",
+    githubLink:"https://github.com/HarshitMahajan/Youtuber-Download- ",
+    demoLink: " ",
+  },
+  {
+    title: "Photo Enhancer",
+    desc: "A program that lets you Enhance your photos without doing anything.",
+    githubLink:"https://github.com/HarshitMahajan/Photo-Editor ",
+    demoLink: " ",
+  },
+  {
+    title: "",
     desc: "A program that lets you download youtube videos at the best quality.",
     githubLink:"https://github.com/HarshitMahajan/Youtuber-Download- ",
     demoLink: " ",
