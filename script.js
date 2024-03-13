@@ -19,7 +19,8 @@ const socialHandles = [
     platform: "linkedin",
   },
   {
-   
+    Link: "https://www.linkedin.com/in/hm1104/",
+    platform: "Instagram",
   },
   
 ];
