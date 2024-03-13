@@ -4,7 +4,6 @@ const projectsEl = document.querySelector("#projects");
 const socialHandles = [
   {
     Link: "https://twitter.com/Harshitmahajan_",
-    // imgSrc: "images/twitter-logo.png",
     platform: "twitter",
   },
   {
@@ -40,9 +39,10 @@ const projectsArray = [
     demoLink: " ",
   },
   {
-    title: "youdio",
-    desc: "A webapp that let's you convert youtube to an online audio jukebox. Supabase took it down due to no interactivity.",
-    demoLink:" ",
+    title: "Youtube down",
+    desc: "A program that lets you download youtube videos at the best quality.",
+    githubLink:"https://github.com/HarshitMahajan/Youtuber-Download- ",
+    demoLink: " ",
   },
 ];
 
