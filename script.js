@@ -31,18 +31,18 @@ const projectsArray = [
     title: "AgriCultivateIQ",
     desc: "A program that help farmers to get the best crop recommendation based on the soil type, weather, location and other factors. It uses machine learning to predict the best crop.",
     githubLink: "https://github.com/HarshitMahajan/ ",
-    demoLink: "",
+    demoLink: " ",
   },
   {
     title: "FusionPdf",
     desc: "A simple Python Project that lets you Merge n number of PDFs into one PDF and have features like sort pdf, re arrange and event delete in the interface.",
     githubLink: "https://github.com/HarshitMahajan/FusionPdf",
-    demoLink: "https://twitter.com/anonthedev/status/1753402885961093391",
+    demoLink: " ",
   },
   {
     title: "youdio",
     desc: "A webapp that let's you convert youtube to an online audio jukebox. Supabase took it down due to no interactivity.",
-    demoLink:"https://youdio.xyz",
+    demoLink:" ",
   },
 ];
 
