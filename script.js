@@ -26,13 +26,19 @@ const projectsArray = [
     title: "AgriCultivateIQ",
     desc: "A program that help farmers to get the best crop recommendation based on the soil type, weather, location and other factors. It uses machine learning to predict the best crop.",
     githubLink: "https://github.com/HarshitMahajan/ ",
-    demoLink: " ",
+    
   },
   {
     title: "FusionPdf",
     desc: "A simple Python Project that lets you Merge n number of PDFs into one PDF and have features like sort pdf, re arrange and event delete in the interface.",
     githubLink: "https://github.com/HarshitMahajan/FusionPdf",
-    demoLink: " ",
+    demoLink: " https://github.com/HarshitMahajan/FusionPdf/blob/main/README.md ",
+  },
+  {
+    title: "Code Canvas",
+    desc: "A simple Html website where you can actually test out what you are building in real time. It has a code editor and a preview section.",
+    githubLink:"https://github.com/HarshitMahajan/CodeCanvas",
+    demoLink: "https://code-canvas-gilt.vercel.app/ ",
   },
   {
     title: "Youtube downloader",
