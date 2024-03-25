@@ -1,5 +1,6 @@
 const socialsEl = document.querySelector("#socials");
 const projectsEl = document.querySelector("#projects");
+const writingEl = document.querySelector("#wrtiting");
 
 const socialHandles = [
   {
@@ -19,6 +20,15 @@ const socialHandles = [
     platform: "linkedin",
   },
     
+];
+
+const writingArray = [
+  {
+    title: "AgriCultivateIQ",
+    desc: "A program that help farmers to get the best crop recommendation based on the soil type, weather, location and other factors. It uses machine learning to predict the best crop.",
+    notionLink: "https://github.com/HarshitMahajan/ ",  
+  },
+  
 ];
 
 const projectsArray = [
@@ -60,6 +70,7 @@ const projectsArray = [
   },
 ];
 
+
 socialHandles.forEach((social, index) => {
   const a = document.createElement("a");
   a.href = social.Link;
@@ -100,3 +111,41 @@ projectsArray.forEach((project, index) => {
 
   projectsEl.appendChild(div);
 });
+
+writingArray.forEach((writing, index) => {
+  const div = document.createElement("div");
+  div.style.display = "flex"
+  div.style.flexDirection = "column"
+  div.style.gap = "10px"
+  div.style.marginLeft = "15px"
+  div.style.color = "rgb(229, 231, 235)"
+  const h3 = document.createElement("h3");
+  h3.className = "writing-title";
+  h3.textContent = `- ${writing.title}`;
+  h3.style.marginLeft = "-15px"
+  const p = document.createElement("p");
+  p.textContent = writing.desc;
+  const links = document.createElement("div")
+  links.className = "links"
+  const notionLink = document.createElement("a");
+  notionLink.target = "_blank";
+  notionLink.href = writing.notionLink;
+  notionLink.textContent = "notion";
+  notionLink.style.display = project.notionLink ? "block" : "none"
+  const demoLink = document.createElement("a");
+  demoLink.target = "_blank";
+  demoLink.href = project.demoLink;
+  demoLink.textContent = "demo";
+
+  links.append(notionLink, demoLink);
+
+  div.append(h3, p, links);
+
+  projectsEl.appendChild(div);
+});
+
+
+
+
+
+

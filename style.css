@@ -65,8 +65,7 @@
     width: calc(100vw / 2.5);
     
     text-align: left;
-    font-family: "Poppins", sans-serif;
-    
+    font-family: "Poppins", sans-serif; 
   }
   
   .hero-section {
@@ -97,6 +96,13 @@
     flex-direction: column;
     gap: 20px;
   }
+
+  .writing {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
   
   .links {
     display: flex;
@@ -105,6 +111,9 @@
   }
   
   .project-title {
+    font-weight: 600;
+  }
+  .writing-title {
     font-weight: 600;
   }
   
