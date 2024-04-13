@@ -40,7 +40,7 @@ const projectsArray = [
   },
   {
     title: "FusionPdf",
-    desc: "A simple Python Project that lets you Merge n number of PDFs into one PDF and have features like sort pdf, re arrange and event delete in the interface.",
+    desc: "A simple Python Project that lets you Merge n number of PDFs into one PDF and have features like sort pdf, re-arrange and event delete in the interface.",
     githubLink: "https://github.com/HarshitMahajan/FusionPdf",
     demoLink: " https://github.com/HarshitMahajan/FusionPdf/blob/main/README.md ",
   },
