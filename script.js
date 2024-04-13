@@ -22,14 +22,14 @@ const socialHandles = [
     
 ];
 
-const writingArray = [
-  {
-    title: "AgriCultivateIQ",
-    desc: "A program that help farmers to get the best crop recommendation based on the soil type, weather, location and other factors. It uses machine learning to predict the best crop.",
-    notionLink: "https://github.com/HarshitMahajan/ ",  
-  },
+// const writingArray = [
+//   {
+//     title: "AgriCultivateIQ",
+//     desc: "A program that help farmers to get the best crop recommendation based on the soil type, weather, location and other factors. It uses machine learning to predict the best crop.",
+//     notionLink: "https://github.com/HarshitMahajan/ ",  
+//   },
   
-];
+// ];
 
 const projectsArray = [
   {
