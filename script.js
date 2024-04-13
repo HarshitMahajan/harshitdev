@@ -64,7 +64,7 @@ const projectsArray = [
   },
   {
     title: "Desktop Cleaner",
-    desc: "A simple script yo clean all your files with one tap.",
+    desc: "A simple script to clean all your files with one tap.",
     githubLink:"https://github.com/HarshitMahajan/Youtuber-Download- ",
     demoLink: " ",
   },
