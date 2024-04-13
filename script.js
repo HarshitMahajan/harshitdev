@@ -36,7 +36,7 @@ const projectsArray = [
     title: "AgriCultivateIQ",
     desc: "A program that help farmers to get the best crop recommendation based on the soil type, weather, location and other factors. It uses machine learning to predict the best crop.",
     githubLink: "https://github.com/HarshitMahajan/Crop-recommendation-system/ ",
-    demoLink: " https://github.com/HarshitMahajan/Crop-recommendation-system ",
+    demoLink: " https://github.com/HarshitMahajan/Crop-recommendation-system/blob/main/crop%20recommendation%20.ipynb",
   },
   {
     title: "FusionPdf",
